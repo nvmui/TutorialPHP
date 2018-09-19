@@ -11,7 +11,7 @@
 	<div class="waper">
 		<!-- banner -->
 		<div class="banner">
-			<img style="width: 100%;height: 250px" src="banner.jpg">
+			<img style="width: 100%;height: 250px" src="image/banner.jpg">
 		</div>
 		<!-- menu top -->
 		<div class="menu">
