@@ -3,7 +3,7 @@
 <head>
 	<title>Thiết kế giao diện</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="giaodien.css">
+	<link rel="stylesheet" type="text/css" href="css/giaodien.css">
 	<!-- <link rel="stylesheet" type="text/css" href="menutop.css"> -->
 </head>
 <body>
@@ -25,12 +25,15 @@
 		<!-- thân trang web -->
 		<div class="conten">
 			<div class="menuleft">
-				<ul class="menu-left">
+				<?php 
+					require("menuleft.php");
+				?>
+				<!-- <ul class="menu-left">
 					<li><a href="#">Điện thoại</a></li>
 					<li><a href="#">Máy tính bảng</a></li>
 					<li><a href="#">Laptop</a></li>
 					<li><a href="#">Phụ kiện</a></li>
-				</ul>
+				</ul> -->
 			</div>
 			<div class="mainconten">
 				<h2>Phần hiển thị nội dung</h2>

@@ -1,0 +1,17 @@
+.menu-left{
+	list-style-type: none;
+	float: left;
+	display: inline-block;
+    font-size: 20px;
+    /*background-color: #2d3436;*/
+}
+.menu-left li a{
+	color: white;
+	text-decoration: none;
+	/*margin-left: 14px;*/
+    line-height: 30px;
+}
+.menu-left a:hover, .menu-left :hover{
+	background-color: red;
+	min-width: 200px;
+}
